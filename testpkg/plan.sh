@@ -1,6 +1,6 @@
 pkg_origin=edavis
 pkg_name=testapp
-pkg_version=0.1.4
+pkg_version=0.1.3
 pkg_maintainer="The Habitat Maintainers <humans@habitat.sh>"
 pkg_license=()
 pkg_upstream_url=https://github.com/habitat-sh/habitat-example-plans
@@ -8,7 +8,7 @@ pkg_source=nosuchfile.tar.gz
 pkg_deps=()
 pkg_expose=()
 pkg_bin_dirs=(bin)
-pkg_svc_run="sleep 1000"
+pkg_svc_run="sleep 10000"
 
 do_download() {
   return 0
